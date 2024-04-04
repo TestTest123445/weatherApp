@@ -1,8 +1,5 @@
 import dotenv from 'dotenv';
 
-import logger from './config/logger.js';
-import app from './index.js';
-
 const { Telegraf } = require('telegraf');
 
 const TOKEN = "7080791089:AAEbHa8gHXwysVfnV0SrHAToltKA6mbZQ6U"
