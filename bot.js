@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+
 
 const { Telegraf } = require('telegraf');
 
@@ -8,13 +8,6 @@ const bot = new Telegraf(TOKEN);
 
 
 
-dotenv.config();
-
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  logger.info(`Server running on port ${port}`);
-});
 
 
 const web_link = "https://dreamy-haupia-0f980c.netlify.app/";
